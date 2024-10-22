@@ -1,0 +1,16 @@
+{
+  "name": "passport-simpleauth",
+  "version": "1.0.0",
+  "description": "1. create the passport-simpleAuth folder and navigate to it ```bash mkdir passport-simpleAuth cd passport-simpleAuth ``` 2. initial node js application ```bash npm init --yes # to use default settings ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "passport": "^0.7.0"
+  }
+}

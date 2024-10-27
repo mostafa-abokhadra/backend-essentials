@@ -49,8 +49,7 @@ app.listen(3000)
 2. **Router-level middleware**
   - a middleware that executes only with specific some end points requests
   - `router.use(middleware)`
-3. **Error-handling middleware**
-4. **Built-in middleware**
+3. **Built-in middleware**
 ```js
 app.use(express.urlencoded({extended: true}))
 app.use(express.static('public', options))
@@ -60,9 +59,8 @@ app.use(express.json())
     - [express.static](https://expressjs.com/en/4x/api.html#express.static)
     - [express.json](https://expressjs.com/en/4x/api.html#express.json)
     - [express.urlencoded](https://expressjs.com/en/4x/api.html#express.urlencoded)
-
+4. **Error-handling middleware**
 5. **Third-party middleware**
-- Use third-party middleware to add functionality to Express apps.
 
 ### notes
 - To skip the rest of the middleware functions of a router middlewares stack, call <mark>next('route')</mark> to pass control to the next route that matches the current route api
@@ -174,5 +172,3 @@ In Express.js, `next()`, `next("route")`, and `next("router")` are used to contr
 - **`next("router")`** skips to the next router, useful in applications with multiple `express.Router()` instances.
 
 These variations in `next()` provide granular control over how requests are processed and how middleware is applied across routes and routers.
-
-read [this](https://expressjs.com/en/guide/writing-middleware.html)

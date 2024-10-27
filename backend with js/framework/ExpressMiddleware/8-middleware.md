@@ -43,20 +43,26 @@ app.listen(3000)
 ```
 
 **An Express application can use the following types of middleware:**
-
-- **Application-level middleware**
+1. **Application-level middleware**
   - when the middleware executes with any request to the application
   - `server.use(middleware)`
--**Router-level middleware**
+2. **Router-level middleware**
   - a middleware that executes only with specific some end points requests
   - `router.use(middleware)`
-- **Error-handling middleware**
-- **Built-in middleware**
+3. **Error-handling middleware**
+4. **Built-in middleware**
 ```js
 app.use(express.urlencoded({extended: true}))
+app.use(express.static('public', options))
+app.use(express.json())
 ```
-- **Third-party middleware**
+  - for more advanced knoweledge
+    - [express.static](https://expressjs.com/en/4x/api.html#express.static)
+    - [express.json](https://expressjs.com/en/4x/api.html#express.json)
+    - [express.urlencoded](https://expressjs.com/en/4x/api.html#express.urlencoded)
 
+5. **Third-party middleware**
+- Use third-party middleware to add functionality to Express apps.
 
 ### notes
 - To skip the rest of the middleware functions of a router middlewares stack, call <mark>next('route')</mark> to pass control to the next route that matches the current route api

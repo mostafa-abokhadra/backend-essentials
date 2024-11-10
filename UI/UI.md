@@ -38,3 +38,9 @@
 
 ### site map
 - more detailed user flow, includeing each page and each page contents, features and design
+
+### UI components
+1. input controls
+2. navigatin componenet
+3. information component
+4. container

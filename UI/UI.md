@@ -61,3 +61,14 @@ padges of notifications, dialog
 - android ui design system
 - ios ui design system
 - the standard way of android components design is called **material design** 
+
+### wireframes
+- initial design
+    - low fedility wireframe
+    minimum details desing in papers
+    - high fedility wireframe
+
+    ![](./all-wireframes-1030x585.jpg)
+
+### prototype
+- enable user to visualize the website dynamics

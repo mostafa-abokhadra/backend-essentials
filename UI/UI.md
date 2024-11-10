@@ -41,6 +41,23 @@
 
 ### UI components
 1. input controls
+
+input fieds, checkboxes, radio button
+
 2. navigatin componenet
+
+search bar, pagination, tags
+
 3. information component
+
+padges of notifications, dialog
+
 4. container
+
+### android and ios UI systems
+
+**search in google:-**
+
+- android ui design system
+- ios ui design system
+- the standard way of android components design is called **material design** 

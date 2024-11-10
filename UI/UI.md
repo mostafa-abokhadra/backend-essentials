@@ -30,3 +30,11 @@
 
 > [!NOTE]
 > network effect: is the ability of a specific application or business to get more users from other users
+
+### minimum viable product
+
+### user flow
+- using figma
+
+### site map
+- more detailed user flow, includeing each page and each page contents, features and design

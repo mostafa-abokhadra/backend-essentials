@@ -25,3 +25,8 @@
 
 ### planning
 - time table
+
+![](./tmeTable2.png)
+
+> [!NOTE]
+> network effect: is the ability of a specific application or business to get more users from other users

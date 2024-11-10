@@ -26,7 +26,7 @@
 ### planning
 - time table
 
-![](./tmeTable2.png)
+![](./imgs/tmeTable2.png)
 
 > [!NOTE]
 > **network effect**: is the ability of a specific application or business to get more users from other users
@@ -71,7 +71,7 @@ padges of notifications e:g the number on facebook logo reflecting how many noti
     - high fedility wireframe
         - more detailed including the text and placeholders
 
-    ![](./all-wireframes-1030x585.jpg)
+    ![](./imgs/wireframes.jpg)
 
 ### prototype
 - enable cutomer or investor to visualize the website dynamics

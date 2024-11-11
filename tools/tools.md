@@ -20,3 +20,16 @@ CDNs store copies of your site’s content on servers around the world, reducing
 
 ### web workers
 simple means for web content to run scripts in background threads.
+
+### Let’s Encrypt
+Obtain an SSL/TLS certificate from a reputable certificate authority (CA) and configure it on your server. Many hosting providers offer free SSL certificates (such as Let’s Encrypt) and make setup easy.
+
+Implement Content Security Policy (CSP)
+
+### content security policy
+
+A CSP is a security feature that helps prevent cross-site scripting and other code injection attacks by specifying which resources (e.g., scripts, images) are allowed to load on your site.
+
+**How to implement**: Configure CSP headers in your server settings to allow only trusted domains to load resources. For example, setting policies like `script-src 'self'` ensures that only scripts from your domain are executed.
+
+**Why it matters**: CSP can greatly reduce vulnerabilities and potential threats, especially when external resources are involved.

@@ -12,12 +12,20 @@
         - Inline critical CSS and defer non-critical JavaScript so they don’t block the rendering of the main content.
         - removie unused code, splitting code, and only loading what is needed initially.
         - Use asynchronous loading
-        - Optimize main thread work: using **web worker**   
+        - Optimize main thread work: using **web worker**
     - Use techniques like lazy loading and caching.
         - Delay loading images or resources that are not immediately visible.
         - reduce the time it takes for the server to respond to requests by optimizing back-end processes, using caching, and upgrading hosting if necessary
     - first input delay should be **< 100millisecond**
     - specify images height and width to avoid unexpected shift of content
-    - placeholder for ads
-    - flash of unstyled text if font load slowly so use a web font loader
+    - reserve space for ads on the website to avoid them pushing content down
+    - **font-display: swap** in CSS helps to avoid the flash of unstyled text”(FOUT) by displaying a fallback font until the main font loads.
     - Monitor performance regularly with tools like **Google PageSpeed Insights** or **Lighthouse**.
+    - use https, secure cookies e:i `Secure` attribute to true and `HttpOnly` to avoid cross site scripting attacks
+    - implement content security policy
+    - use secure headers e:i
+        - `Strict-Transport-Security (HSTS):` Forces browsers to connect only via HTTPS.
+        - `X-Content-Type-Options`: Prevents browsers from interpreting files as a different MIME type than declared.
+        - `X-Frame-Options` Prevents your site from being embedded in iframes, reducing the risk of clickjacking attacks.
+        - `X-XSS-Protection` Enables browser-based XSS protection.
+    -  Enforcing strong password policies, multi-factor authentication, and session expiration for logged-in users.

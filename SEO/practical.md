@@ -1,0 +1,23 @@
+- assess if google can see you site first using `site: your website` in google search bar
+- **create helpful, reliable, people-first content**
+    - original information, comprehensive description, beyond the obvious, additional value is added when webscraping
+    - main heading and titles are descriptive without exagerating
+    - is the page trust worthy? have about page ?
+    - would use consider bookmark it or recommend it
+    - no spelling or sylestic issues
+    - no easily verified factual errors
+- **provide good page experience**
+    - page should load quickly **< 2.5 second**,  Use formats like **WebP** and **compress** images
+    - Optimize JavaScript to reduce blocking elements.
+        - Inline critical CSS and defer non-critical JavaScript so they don’t block the rendering of the main content.
+        - removie unused code, splitting code, and only loading what is needed initially.
+        - Use asynchronous loading
+        - Optimize main thread work: using **web worker**   
+    - Use techniques like lazy loading and caching.
+        - Delay loading images or resources that are not immediately visible.
+        - reduce the time it takes for the server to respond to requests by optimizing back-end processes, using caching, and upgrading hosting if necessary
+    - first input delay should be **< 100millisecond**
+    - specify images height and width to avoid unexpected shift of content
+    - placeholder for ads
+    - flash of unstyled text if font load slowly so use a web font loader
+    - Monitor performance regularly with tools like **Google PageSpeed Insights** or **Lighthouse**.

@@ -209,7 +209,7 @@
     ### Summary
     By following these practices, you can create an experience that is both user-friendly and compliant with Google’s guidelines. Users will appreciate a seamless browsing experience without interruptions, and Google rewards sites that avoid intrusive interstitials by ranking them more favorably in search results.
 
-    - **is your page designed so visistors can easily distinguish the main content form other content on you page?**
+    - **is your page designed so visitors can easily distinguish the main content form other content on you page?**
 
     designing a page so visitors can easily distinguish the main content from other elements (like ads, navigation, or sidebars) is critical for both user experience and SEO. Clear visual hierarchy and a well-structured layout help users navigate the page effortlessly, leading to higher engagement and satisfaction.
 

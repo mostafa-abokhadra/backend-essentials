@@ -12,8 +12,8 @@ are website-building platforms, each offering tools for creating and managing we
 
 Each platform has its strengths, making them suitable for different purposes—from basic blogs to full-featured websites.
 
-### **Google PageSpeed Insights** and **Lighthouse** and Chrome DevTools
-- Monitor performance regularly and core vital metrics and get specific suggestions for improvement.
+### Google PageSpeed Insights, Lighthouse and Chrome DevTools
+- Monitor core vital metrics performance and get specific suggestions for improvement.
 
 ### Content Delivery Network (CDN)
 CDNs store copies of your site’s content on servers around the world, reducing load times by serving resources from locations close to the user.
@@ -28,8 +28,9 @@ Implement Content Security Policy (CSP)
 
 ### content security policy
 
-A CSP is a security feature that helps prevent cross-site scripting and other code injection attacks by specifying which resources (e.g., scripts, images) are allowed to load on your site.
+A **CSP** is a security feature that helps prevent cross-site scripting and other code injection attacks by specifying which resources (e.g., scripts, images) are allowed to load on your site.
 
 **How to implement**: Configure CSP headers in your server settings to allow only trusted domains to load resources. For example, setting policies like `script-src 'self'` ensures that only scripts from your domain are executed.
 
-**Why it matters**: CSP can greatly reduce vulnerabilities and potential threats, especially when external resources are involved.
+### Google’s Mobile-Friendly Test
+This tool checks if a page is mobile-friendly and provides specific recommendations for improvements.

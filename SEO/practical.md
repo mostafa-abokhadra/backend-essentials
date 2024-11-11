@@ -1,9 +1,12 @@
+### implementing SEO 
 - assess if google can see you site first using `site: your website` in google search bar
+
 - **create helpful, reliable, people-first content**
-    - original information, comprehensive description, beyond the obvious, additional value is added when webscraping
-    - main heading and titles are descriptive without exagerating
-    - is the page trust worthy? have about page ?
-    - would use consider bookmark it or recommend it
+    - original information, comprehensive description, beyond the obvious
+    - additional value is added to web scrapped content
+    - main heading and titles are descriptive without exaggerating
+    - is the page trust worthy and the author or organization is clear? have about page ?
+    - would user consider bookmark it or recommend it
     - no spelling or sylestic issues
     - no easily verified factual errors
 - **provide good page experience**
@@ -19,13 +22,32 @@
     - first input delay should be **< 100millisecond**
     - specify images height and width to avoid unexpected shift of content
     - reserve space for ads on the website to avoid them pushing content down
-    - **font-display: swap** in CSS helps to avoid the flash of unstyled text”(FOUT) by displaying a fallback font until the main font loads.
+    - `font-display: swap` in CSS helps to avoid the flash of unstyled text (FOUT) by displaying a fallback font until the main font loads.
     - Monitor performance regularly with tools like **Google PageSpeed Insights** or **Lighthouse**.
     - use https, secure cookies e:i `Secure` attribute to true and `HttpOnly` to avoid cross site scripting attacks
-    - implement content security policy
+    - implement content security policy (CSP)
     - use secure headers e:i
         - `Strict-Transport-Security (HSTS):` Forces browsers to connect only via HTTPS.
         - `X-Content-Type-Options`: Prevents browsers from interpreting files as a different MIME type than declared.
         - `X-Frame-Options` Prevents your site from being embedded in iframes, reducing the risk of clickjacking attacks.
         - `X-XSS-Protection` Enables browser-based XSS protection.
     -  Enforcing strong password policies, multi-factor authentication, and session expiration for logged-in users.
+    - remember **Google’s mobile-first indexing means that the mobile version of your site is the primary version it considers for search rankings.**
+    - Use CSS media queries for responsiveness design
+    - Text: Ensure font sizes are large enough to read on smaller screens. A base font size of at least 16px is often recommended.
+    - Buttons and links: Make buttons and links large and well-spaced for easy tapping. Use at least 48px x 48px for clickable elements to avoid accidental clicks.
+    - a hamburger menu (☰) or similar compact design for website navigation
+    -  Use responsive images (like `srcset` in HTML), **lazy loading** for off-screen images, and modern formats like **WebP** to reduce file sizes.
+    - Use Google’s Mobile-Friendly Test: This tool checks if a page is mobile-friendly and provides specific recommendations for improvements.
+    - avoid large pop-ups, ads pop-ups, or overlays that cover the main content
+    - reduce ads
+    - Ensure Ads are Relevant and Non-Deceptive
+    - Use Smaller Banners or Pop-Ups
+    - give users a chance to engage with your content before displaying any pop-ups or offers.
+    - **Make Interstitials Easy to Dismiss**
+    - Use only minimal pop-ups on mobile, and prioritize content-first design.
+    Keep consistent **margins** and **padding** to separate different sections.
+     - Use **headings**, **subheadings**, and **bullet points** to break down content and make it scannable.
+Use **larger fonts** for the main headings (H1) and important text.
+     - Apply **contrast** to make key content stand out (e.g., dark text on a light background).
+     - Differentiate sections using **background colors** or **borders** to visually group related content.

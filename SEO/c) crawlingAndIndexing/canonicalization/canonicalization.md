@@ -12,3 +12,5 @@ Consequently, a canonical URL is the URL of a page that Google chose as the most
 5. **Accidental variants**: for example, the demo version of the site is accidentally left accessible to crawlers
 
 Some duplicate content on a site is normal and it's not a violation of Google's spam policies. However, having the same content accessible through many different URLs can be a bad user experience (for example, people might wonder which is the right page, and whether there's a difference between the two) and it may make it harder for you to track how your content performs in search results.
+
+watch [this](https://youtu.be/8j_hxBw5B4E?si=dtykxhGUzTQy5ysf)

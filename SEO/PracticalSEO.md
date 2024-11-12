@@ -5,15 +5,15 @@
     - original information, comprehensive description, beyond the obvious
     - additional value is added to web scrapped content
     - main heading and titles are descriptive without exaggerating
-    - is the page trust worthy and the author or organization is clear? have about page ?
-    - would user consider bookmark it or recommend it
+    - make the page trust worthy and the author or organization is clear by having `about` page
+    - create your pages as if you want for users to consider bookmarking or recommending it
     - no spelling or sylestic issues
     - no easily verified factual errors
 - **provide good page experience**
     - page should load quickly **< 2.5 second**,  Use formats like **WebP** and **compress** images
     - Optimize JavaScript to reduce blocking elements.
         - Inline critical CSS and defer non-critical JavaScript so they don’t block the rendering of the main content.
-        - removie unused code, splitting code, and only loading what is needed initially.
+        - remove unused code, splitting code, and only loading what is needed initially.
         - Use asynchronous loading
         - Optimize main thread work: using **web worker**
     - Use techniques like lazy loading and caching.
@@ -47,11 +47,11 @@
     - **Make Interstitials Easy to Dismiss**
     - Use only minimal pop-ups on mobile, and prioritize content-first design.
     Keep consistent **margins** and **padding** to separate different sections.
-     - Use **headings**, **subheadings**, and **bullet points** to break down content and make it scannable.
-Use **larger fonts** for the main headings (H1) and important text.
-     - Apply **contrast** to make key content stand out (e.g., dark text on a light background).
-     - Differentiate sections using **background colors** or **borders** to visually group related content.
-     - calculate P75
+    - Use **headings**, **subheadings**, and **bullet points** to break down content and make it scannable.
+    - Use **larger fonts** for the main headings (H1) and important text.
+    - Apply **contrast** to make key content stand out (e.g., dark text on a light background).
+    - Differentiate sections using **background colors** or **borders** to visually group related content.
+    - calculate P75
 
 ### crawling and indexing
 - don't worry about file types as google supports almost all of the file types and formats

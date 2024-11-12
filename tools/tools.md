@@ -52,3 +52,6 @@ This tool provides in-depth performance metrics for individual pages, often segm
 
 ### Real User Monitoring (RUM) tools
 Tools like **New Relic**, **Datadog**, **Dynatrace**, or **SpeedCurve** provide real-user data across many devices and networks. These tools can automatically calculate and display the 75th percentile of various metrics, segmented by device type (mobile or desktop).
+
+### Accelerated Mobile Pages (AMP)
+It is an Open Source Framework that was launched as a joint initiative by Google and several other technology and publishing companies. With AMP, it is possible to create simple mobile websites that load almost instantly

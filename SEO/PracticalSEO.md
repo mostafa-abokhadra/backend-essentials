@@ -52,3 +52,25 @@ Use **larger fonts** for the main headings (H1) and important text.
      - Apply **contrast** to make key content stand out (e.g., dark text on a light background).
      - Differentiate sections using **background colors** or **borders** to visually group related content.
      - calculate P75
+
+### crawling and indexing
+- don't worry about file types as google supports almost all of the file types and formats
+- filetype:pdf something, would show you results of only the specified file format
+- use readable, Simple, descriptive words rather than long ID numbers in your URLs.
+- Use UTF-8 encoding as necessary. e:g `https://example.com/%D9%86%D8%B9%D9%86%D8%A7%D8%B9/%D8%A8%D9%82%D8%A7%D9%84%D8%A9` for Arabic characters in the URL **NOT** `https://example.com/نعناع`
+- avoid Unreadable, long ID numbers in the URL
+- Don't use fragments to change the content of a page e:i `#` in url to redirect the view of the page to specific section, as Google generally doesn't support URL fragments. If you're using JavaScript to change content, use the [History API](https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics#use-history-api) instead
+- Consider using hyphens to separate words in your URLs, as it helps users and search engines identify concepts in the URL more easily. We recommend that you use hyphens (-) instead of underscores (_) in your URLs.
+- avoid Words in the URL joined together e:g `/greendress`
+- for URL params, an equal sign (=) to separate key-value pairs and add additional parameters with an ampersand (&)
+- Using a comma (,) to list multiple values for the same key
+- avoid Using a colon : to separate key-value pairs and brackets [ ] to add additional parameters
+- avoid complex URL with multiple parameters
+- Canonical Tags to identify the primary URL for duplicate content, e:i for routes that has multiple forms (e:g /category/shoes/red /category/shoes/green)
+- **Parameter Management in Google Search Console**: Use Search Console to tell Google which parameters to ignore.
+- **Robots.txt and Noindex Tags**: Block pages or sections that are not valuable to search engines (like endless calendar dates) using `robots.txt` or `<meta name="robots" content="noindex">`.
+- avoid the use of session IDs in URLs. Consider using cookies instead.
+- if upper and lower case text in a URL is treated the same by the web server, convert all text to the same case so it is easier for Google to determine that URLs reference the same page.
+- Whenever possible, shorten URLs by trimming unnecessary parameters.
+- If your site has an infinite calendar, add a nofollow attribute to links to dynamically created future calendar pages.
+- Check your site for broken relative links.

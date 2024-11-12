@@ -34,3 +34,9 @@ A **CSP** is a security feature that helps prevent cross-site scripting and othe
 
 ### Google’s Mobile-Friendly Test
 This tool checks if a page is mobile-friendly and provides specific recommendations for improvements.
+
+### **google trends**
+helps you to know what people are interested in
+
+### **Crunchbase**
+provides information about businesses

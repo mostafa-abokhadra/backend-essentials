@@ -81,4 +81,7 @@
 - For images as links, Google uses the alt attribute of the img element as anchor text, so be sure to add descriptive alt text to your images:
 `<a href="/add-to-cart.html"><img src="enchiladas-in-shopping-cart.jpg" alt="add enchiladas to your cart"/></a>`
 - internal links used wisely, meaningful, concise and not to many links in one page so user can know the next step
-
+- **You might need a sitemap if:**
+    - Your site is large. 
+    - Your site is new and has few external links to it. 
+    - Your site has a lot of rich media content (video, images) or is shown in Google News.

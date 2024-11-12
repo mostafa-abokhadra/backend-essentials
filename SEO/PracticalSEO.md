@@ -74,3 +74,11 @@
 - Whenever possible, shorten URLs by trimming unnecessary parameters.
 - If your site has an infinite calendar, add a nofollow attribute to links to dynamically created future calendar pages.
 - Check your site for broken relative links.
+- use `<a>` tag with `href` attr so google can crawl and index you pages
+- use logical link text reflecting the page that you link to
+- As a fallback, Google can use the title attribute as anchor text if the <a> element is for some reason empty.
+`<a href="https://example.com/ghost-pepper-recipe" title="how to pickle ghost peppers"></a>`
+- For images as links, Google uses the alt attribute of the img element as anchor text, so be sure to add descriptive alt text to your images:
+`<a href="/add-to-cart.html"><img src="enchiladas-in-shopping-cart.jpg" alt="add enchiladas to your cart"/></a>`
+- internal links used wisely, meaningful, concise and not to many links in one page so user can know the next step
+

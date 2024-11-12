@@ -40,3 +40,15 @@ helps you to know what people are interested in
 
 ### **Crunchbase**
 provides information about businesses
+
+### Google Analytics
+If your site is set up with Google Analytics, you can track page load times under Behavior > Site Speed > Page Timings. While Google Analytics doesn't directly give you percentiles, you can export the data and calculate the 75th percentile manually.
+
+### Google Lighthouse (or PageSpeed Insights)
+Both tools offer performance metrics like First Contentful Paint (FCP) and Largest Contentful Paint (LCP) with percentile scores, and you can see metrics segmented by mobile and desktop.
+
+### WebPageTest
+This tool provides in-depth performance metrics for individual pages, often segmented by various percentile markers, including the 75th percentile.
+
+### Real User Monitoring (RUM) tools
+Tools like **New Relic**, **Datadog**, **Dynatrace**, or **SpeedCurve** provide real-user data across many devices and networks. These tools can automatically calculate and display the 75th percentile of various metrics, segmented by device type (mobile or desktop).

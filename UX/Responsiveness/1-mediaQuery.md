@@ -58,3 +58,17 @@ combination using `and` keyword
 }
 ```
 You can use lots of different CSS units in your media queries. If your content is mostly image-based, pixels might make the most sense. If your content is mostly text-based, it probably makes more sense to use a unit that’s based on text size, like `rem` or `em`
+
+The point at which a media feature condition becomes true is called a breakpoint. It's best to choose your breakpoints based on your content rather than popular device sizes, as those are subject to change with every technology release cycle
+
+You can use media queries based on the height of the viewport, not just the width. This could be useful for optimizing interface content "above the fold"
+
+```css
+@media (min-width: 50em) and (min-height: 60em) {
+  article {
+    column-count: 2;
+  }
+}
+```
+
+If you write CSS, you may have used **directional properties** like "left", "right", "top", and "bottom." Those keywords refer to the physical layout of the user's device.

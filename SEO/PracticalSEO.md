@@ -94,3 +94,4 @@
 <meta name="googlebot" content="noindex">
 ```
 - respnsive mobile friendly website with the same URLs in all devices
+- identify the language of your page by using the lang attribute on the html element.

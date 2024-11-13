@@ -15,3 +15,20 @@ body {
   }
 }
 ```
+you can make a separate stylesheet and use the media attribute on a link element:
+```html
+<link rel="stylesheet" href="print.css" media="print">
+```
+If you don't specify any media type for your CSS, it will automatically have a media type value of all. These two blocks of CSS are equivalent:
+```css
+body {
+  color: black;
+  background-color: white;
+}
+@media all {
+   body {
+     color: black;
+     background-color: white;
+   }
+}
+```

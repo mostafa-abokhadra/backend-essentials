@@ -32,3 +32,8 @@ body {
    }
 }
 ```
+These two lines of HTML are also equivalent:
+```html
+<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="global.css" media="all">
+```

@@ -85,3 +85,12 @@
     - Your site is large. 
     - Your site is new and has few external links to it. 
     - Your site has a lot of rich media content (video, images) or is shown in Google News.
+
+### mobile first-indexing considerations
+- don't show less information on your mobile version
+- dont' use these metatags
+```html
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex">
+```
+- respnsive mobile friendly website with the same URLs in all devices

@@ -95,3 +95,37 @@
 ```
 - respnsive mobile friendly website with the same URLs in all devices
 - identify the language of your page by using the lang attribute on the html element.
+- Use the same robots meta tags on the mobile and desktop site.
+- Don't lazy-load primary content upon user interaction.
+- Let Google crawl your resources
+- Make sure that your mobile site contains the same content as your desktop site
+- Use the same clear and meaningful headings on the mobile site as you do on the desktop site.
+- Put the same metadata on both versions of your site
+
+### title
+- every page on your site has a title specified in the `<title>` element.
+- Write descriptive and concise text for your `<title>` elements.
+- Avoid vague descriptors like "Home" for your home page, or "Profile" for a specific person's profile.
+- `avoid unnecessarily long or verbose text in your `<title>`
+- Avoid keyword stuffing
+-  dynamically update the <title> element to better reflect the actual content of the page.
+- Brand your titles concisely. The <title> element on your site's home page is a reasonable place to include some additional information about your site. For example: `<title>ExampleSocialSite, a place for people to meet and mingle</title>`
+- Consider ensuring that your main title is distinctive from other text on a page and stands out as being the most prominent on the page (for example, using a larger font, putting the title text in the first visible <h1> element on the page, etc).
+- Use the same language and writing system as the primary content on your pages e:g  if a page is written in Hindi, make sure to also write the <title> element in Hindi
+- avoid Half-empty <title> elements
+- avoid obsolet titles e:g 2012 something, but change to recent date
+- avoid titles that don't reflect the actual content of the website
+- make your main title clear for crawlers, don't sue alot of h1 or make somehting bigger than the main title
+
+
+- The `og:title` tag is an Open Graph meta tag used in HTML to define the title of a web page when it is shared on social media platforms like Facebook, LinkedIn, and Twitter. By specifying `og:title`, you can control what title will appear in the preview link when someone shares your page. This can help make shared content more engaging and improve click-through rates.
+
+Here's how you might use `og:title` in your HTML:
+
+```html
+<head>
+  <meta property="og:title" content="Your Page Title Here" />
+</head>
+```
+
+Replace `"Your Page Title Here"` with the actual title you want to display. Adding `og:title` is especially useful for branding and consistency, ensuring your title appears the same across all platforms that support Open Graph tags.

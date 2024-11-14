@@ -129,3 +129,6 @@ Here's how you might use `og:title` in your HTML:
 ```
 
 Replace `"Your Page Title Here"` with the actual title you want to display. Adding `og:title` is especially useful for branding and consistency, ensuring your title appears the same across all platforms that support Open Graph tags.
+
+### ai google overview
+There is nothing special for creators to do to be considered other than to follow our regular guidance for appearing in search, as covered in Google Search Essentials.

@@ -27,7 +27,10 @@ remember your users and how they might be searching for your content visulaly, w
 6. **make high quality informative sites**: page content may be used to generate a text snippet for your images and google considers page contnet quality when ranking website
 7. **use mobile and desktop friendly sites**:
 8. **use good stable descriptive URLs for you images**: avoid changing your images URLs and use 301 redirect when they need to be changed
+9. **conside speed**: optimize image file size, use lazy loading techniques, and use responsive images, AMP might be an option as well
 
 ### advanced techniques
-- use structured data
+- use structured data.
 - allowing large image preview using meta tags
+- use markup for image licening oppotunities, using structured data or metadat
+

@@ -12,3 +12,6 @@ Note that the site name is different from the per-page title links (title links 
 #### best practice
 - make sure your video is available publicly on the web, if your video is a prat of an app make sure eash video has a corresponding web page with a URL that google ca access, make sure video is easily visible in the page and not require complex use action to look
 - provide structured data using schema.org VideoObject markup
+- include high quality thumbnails
+- use video sitemaps
+- make video content file accessibla

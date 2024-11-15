@@ -6,3 +6,4 @@ Note that the site name is different from the per-page title links (title links 
 
 ### videos
 - use html elements used for embedding videos e:g `<video> <embed> <iframe> <object>`
+- google identify videos on pages using the above tags, structured data markup and video sitemaps

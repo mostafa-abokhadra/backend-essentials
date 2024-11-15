@@ -17,3 +17,6 @@ If your site's pages are properly linked, Google can usually discover most of yo
 
 > [!NOTE]
 > sitemaps don't replace normal crawling and not including URLs in a sitemap, won't result in those URLs no longer being crawled
+
+> [NOTE]
+> google also recommend finding a way to automatically generate your sitemap instead of creating them manually, usually this will include running code in your server

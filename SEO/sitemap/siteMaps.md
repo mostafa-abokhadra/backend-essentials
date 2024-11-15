@@ -14,3 +14,6 @@ If your site's pages are properly linked, Google can usually discover most of yo
 1. you can extend a URL with images or videos included in it
 2. include information about alternate languages or country versions wit `hreflang` notations
 3. for new sites, you can use a special variations of sitemaps to give google information about the most recent updates
+
+> [!NOTE]
+> sitemaps don't replace normal crawling and not including URLs in a sitemap, won't result in those URLs no longer being crawled

@@ -3,7 +3,6 @@ The XML sitemap format is the most versatile of the supported formats.
 
 Using the Google supported sitemap extensions, you can also provide additional information about your images, video, and news content, as well as the localized versions of your pages.
 
-
 A sitemap is a list of your site's URLs structured in XML.
 
 It helps search engines like Google understand the layout of your site.

@@ -38,6 +38,7 @@ datasourece db {
 > - for postgres `"postgresql://admin:secret@localhost:5432/mydb?schema=public"`
 > - for sqlite `"file:./path-to-your-database.db"`
 > - for sqlserver (microsoft) `"sqlserver://USER:PASSWORD@HOST:PORT;database=DATABASE;schema=SCHEMA_NAME"`
+
 > [!NOTE]
 > the user of your database should have privileges to create databases
 

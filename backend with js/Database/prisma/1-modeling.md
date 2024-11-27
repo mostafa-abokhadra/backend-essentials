@@ -41,7 +41,6 @@ datasourece db {
 
 > [!NOTE]
 > the user of your database should have privileges to create databases
-
 > `grant all privileges on *.* to 'userName'@'host';` this will just give him all pirvileges
 ## Code Sum
 - look at the models above

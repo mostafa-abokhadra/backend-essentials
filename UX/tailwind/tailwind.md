@@ -3,9 +3,9 @@ is a Utility-first CSS framework used to build rapid custom UI. It is a highly c
 
 ### installation
 ```bash
-npm install tailwindcss
+npm install -D tailwindcss
 ```
 ### create tailwind configuration file
 ```bash
-npm tailwind init fileName
+npx tailwindcss init
 ```
